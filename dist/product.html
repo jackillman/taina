@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Tainabox</title>
+	<meta name="description" content="">
+	<script src="js/modernizr-custom.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#e43520">
+	
+	<meta property="og:url" content="">
+    <meta property="og:title" content="Tainabox">
+	<meta name="description"
+    content="Tainabox">
+
+
+	<!-- <meta property="og:image" content="path/to/image.jpg"> -->
+	<link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+	
+	<!-- <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="libs/jquery-ui-cust/jquery-ui.min.css"> -->
+   
+
+<!-- Optional theme -->
+
+    <!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<nav class="header__top">
+				<div class="container">
+					<div class="row">
+						<!-- <div class="hidden-xs header__top-item header__top-logo hidden-md hidden-lg hidden-sm">
+							<a href=""> <img src="./img/logo1.png" alt="tainabox"></a>
+						</div>						 -->
+					
+					<!-- <div class="col-xs-6 header__top-item header__top-phones hidden-md hidden-lg hidden-sm">
+							<p>
+								<a href="tel:+38(067)900-43-41">+38(067)900-43-41</a>
+							</p>
+						
+						</div> -->
+					</div>
+					<div class="row">
+
+
+						<div class="col-sm-3 col-md-3 header__top-item header__top-logo hidden-sm hidden-xs">
+							<a href="./index.html"> <img src="./img/logo1.png" alt="tainabox"></a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 header__top-item header__top-times">	
+							<p>С 10:00 - 21:00</p>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-3 header__top-item header__top-zone hidden-xs">
+							<a href="https://www.google.com/maps/d/u/0/viewer?mid=1hxZuz4PJOMqg5ME-sqHN-qfxtPXIITgT&ll=50.40738347155405%2C30.58181946629179&z=12" target="_blanc">Зона доставки</a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 header__top-item header__top-phones">
+							<p>
+								<a href="tel:+38(067)900-43-41">+38(067)900-43-41</a>
+							</p>
+							<p class="hidden-sm hidden-xs">
+								<a href="tel:+38(073)900-43-41">+38(073)900-43-41</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<nav class="header__mid">
+
+				<div class="header__mid-min-view hidden-md hidden-lg">
+					<p>Меню</p>
+					<ul class="header__mid-menu-min-view">
+						<li><a class="active-menu-link" href="./product.html">Лапша</a></li>
+						<li><a href="./catalog.html">Рис</a></li>
+						<li><a href="./catalog.html">Роллы</a></li>
+						<li><a href="./catalog.html">Супы</a></li>
+						<li><a href="./catalog.html">Салаты</a></li>
+						<li><a href="./catalog.html">Закуски</a></li>
+						<li><a href="./catalog.html">Соусы</a></li>
+						<li><a href="./catalog.html">Напитки</a></li>
+						<li><a href="./catalog.html">Вегетарианское меню</a></li>
+					</ul>
+					<div class="free-zone-min">
+						<p>Зона бесплатной доставки</p> 
+						<a href="https://www.google.com/maps/d/u/0/viewer?mid=1hxZuz4PJOMqg5ME-sqHN-qfxtPXIITgT&ll=50.40738347155405%2C30.58181946629179&z=12">
+							<img class="free-zone-min-img" src="./img/mapsmin.png" alt="">
+						</a>
+						
+					</div>
+					 
+				</div>
+
+
+					<div class="basket-content basket-hidden">
+							<div class="basket-container">
+								<div class="basket-box">
+										<div class="basket-item">
+											<div class="basket-left">
+													<a href="./product.html">
+												<img src="./img/402.jpg" alt="" class="basket-left-img">
+											</a>
+											</div>
+											<div class="basket-right">
+													<h4 class="basket-right-title">
+														Лапша
+													</h4>
+													<p class="basket-right-desc">
+															с телятиной
+													</p>
+													<div class="basket-right-total">
+														<div class="basket-count">
+															<div class="math-block">
+																<span class="minus-quantity quantities"><i class="fa fa-minus" aria-hidden="true"></i></span>
+																<span class="my-quantity">1</span>
+																<span class="plus-quantity quantities"><i class="fa fa-plus" aria-hidden="true"></i></span>
+															</div>	
+														</div>
+														
+														 <p class="basket-price">1210 <span> грн.</span></p></div>	
+													
+											</div>
+											<div class="basket-item-close">X</div>
+										</div>
+										<div class="basket-item">
+												<div class="basket-left">
+														<a href="./product.html">
+													<img src="./img/802.jpg" alt="" class="basket-left-img">
+												</a>
+												</div>
+												<div class="basket-right">
+														<h4 class="basket-right-title">
+															Лапша
+														</h4>
+														<p class="basket-right-desc">
+																с телятиной
+														</p>
+														<div class="basket-right-total">
+															<div class="basket-count">
+																<div class="math-block">
+																	<span class="minus-quantity quantities"><i class="fa fa-minus" aria-hidden="true"></i></span>
+																	<span class="my-quantity">1</span>
+																	<span class="plus-quantity quantities"><i class="fa fa-plus" aria-hidden="true"></i></span>
+																</div>	
+															</div>
+															
+															 <p class="basket-price">1210 <span> грн.</span></p></div>	
+														
+												</div>
+												<div class="basket-item-close">X</div>
+											</div>
+											<div class="basket-item">
+												<div class="basket-left">
+													<a href="./product.html">
+														<img src="./img/402.jpg" alt="" class="basket-left-img">
+													</a>
+												</div>
+												<div class="basket-right">
+												<h4 class="basket-right-title">
+													Лапша
+												</h4>
+												<p class="basket-right-desc">
+													с телятиной
+												</p>
+												<div class="basket-right-total">
+													<div class="basket-count">
+														<div class="math-block">
+															<span class="minus-quantity quantities"><i class="fa fa-minus" aria-hidden="true"></i></span>
+															<span class="my-quantity">1</span>
+															<span class="plus-quantity quantities"><i class="fa fa-plus" aria-hidden="true"></i></span>
+														</div>	
+													</div>
+													
+													 <p class="basket-price">1210 <span> грн.</span></p></div>		
+											</div>
+											<div class="basket-item-close">X</div>
+										</div>	
+										<div class="basket-item">
+											<div class="basket-left">
+													<a href="./product.html">
+												<img src="./img/212.jpg" alt="" class="basket-left-img">
+											</a>
+											</div>
+											<div class="basket-right">
+											<h4 class="basket-right-title">
+												Лапша
+											</h4>
+											<p class="basket-right-desc">
+												с телятиной
+											</p>
+											<div class="basket-right-total">
+												<div class="basket-count">
+													<div class="math-block">
+														<span class="minus-quantity quantities"><i class="fa fa-minus" aria-hidden="true"></i></span>
+														<span class="my-quantity">1</span>
+														<span class="plus-quantity quantities"><i class="fa fa-plus" aria-hidden="true"></i></span>
+													</div>	
+												</div>
+												
+												 <p class="basket-price">1210 <span> грн.</span></p></div>		
+										</div>
+										<div class="basket-item-close">X</div>
+									</div>		
+									</div>	
+									<div class="basket-totaly">Итого: <span>3343</span> грн.</div>
+									<a href="./order.html" class="to-order">Оформить заказ</a>
+							
+							</div>
+						</div>
+					
+
+				
+				<div id="header-custom-middle-block" class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="header__mid-left">
+								<div class="nav-mobile hidden-md hidden-lg">
+									<span class="nav-mobile__line nav-mobile__line--top"></span>
+									<span class="nav-mobile__line nav-mobile__line--middle active"></span>
+									<span class="nav-mobile__line nav-mobile__line--bottom"></span>		
+								</div>
+								<a href="./" id="logo-mid" class="hidden-md hidden-lg"> <img src="./img/logo-w.png" alt="tainabox"></a>
+								<div class="header__mid-right-mini hidden-md hidden-lg">
+								
+										<div class="header__mid-basket mybtn-basket">
+											<a herf="">1000</span> &#8372;</a>
+										</div>
+									</div>
+								<ul class="header__mid-menu hidden-sm hidden-xs">
+									<li><a class="active-menu-link" href="./product.html">Лапша</a></li>
+									<li><a href="./catalog.html">Рис</a></li>
+									<li><a href="./catalog.html">Роллы</a></li>
+									<li><a href="./catalog.html">Супы</a></li>
+									<li><a href="./catalog.html">Салаты</a></li>
+									<li><a href="./catalog.html">Закуски</a></li>
+									<li><a href="./catalog.html">Соусы</a></li>
+									<li><a href="./catalog.html">Напитки</a></li>
+									<li><a href="./catalog.html">Вегетарианское меню</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- <a href="" id="logo-mid" class="logo-mid-invisible"> <img src="./img/logo-w.png" alt="tainabox"></a> -->
+						<div class="col-md-3">
+							<div class="header__mid-right">
+								<div class="header__mid-price">
+									<p><span>1000</span> грн.</p>
+								</div>
+								<div class="header__mid-basket mybtn-basket">
+									<a  href="./">Корзина</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+					<a href="./index.html" class="back-to-main">Вернуться в каталог</a>
+					</div>
+				</div>
+			</div>
+			<div class="product">
+					<a href="" class="product__custom-arrow-left">
+						<div class="inner-arrow-left"></div>
+					</a>
+				<a href="" class="product__custom-arrow-right">
+					<div class="inner-arrow-right"></div>
+				</a>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+
+						
+							<div class="product__card">
+								<div class="product__card-img">
+									<img  src="./img/photo_2018-03-12_18-37-37.png" alt="" class="hidden-xs">
+									<img  src="./img/212.jpg" alt="" class="hidden-sm hidden-md hidden-lg">
+									<!-- <img class="hidden-sm hidden-md hidden-lg" src="/img/212.jpg" alt=""> -->
+								</div>
+
+								<div class="product__card-content card">
+										<div class="spicy"><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt="" ></div>
+									<h3 class="card__title">Шпинатная лапша </h3>
+									<h4 class="card__desc">с телятиной</h4>
+									<p class="card__text">Шпинатная лапша, телятина, лук порей, тыква, 
+										шампиньоны, брокколи, ростки сои, чеснок, сливочный соус.</p>
+									<div class="card__weight-art">
+											<p class="card__weight card-in"><span>400</span>г.</p><p class="card__article card-in">Арт. <span>217</span></p> 
+									</div>
+									
+													
+													<!-- <p class="card__quantity card-in"> <span class="card-ord">В заказе</span> 
+														<span class="card-minus card-action">-</span>
+														<span class="card-res">1</span>
+														<span class="card-plus card-action">+</span>
+													</p> -->
+									<div class="card-bottom">
+										<p class="card__price card-in"> <span>105</span>грн.</p>
+										<!-- <button class="card__btn">В корзину</button> -->
+										<div class="want-block">
+											<div class="math-block display-none">
+													<span class="minus-quantity quantities"><i class="fa fa-minus" aria-hidden="true"></i></span>
+													<span class="my-quantity"></span>
+													<span class="plus-quantity quantities"><i class="fa fa-plus" aria-hidden="true"></i></span>
+											</div>
+
+											<a href="/" class="dish-basket count-up">В корзину</a>
+									</div>
+								</div>		
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="together">
+				<div class="together__title">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<h2>
+									Вместе вкуснее
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+
+						
+							<div class="together__slider">
+										<div class="dish-wrap">
+
+										
+											<div class="dish-item">
+													<div class="dish-top">
+														<a href="">
+															<img src="./img/217-550.jpg" alt="">
+														</a>
+													</div>
+													<div class="dish-bot dish">
+														<div class="dish-content">
+															<div class="spicy"><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt="" ></div>
+															<h3 class="dish-title">Шпинатная лапша</h3>
+															<p class="dish-desc">с телятиной</p>
+														</div>
+														<div class="dish-prices">
+															<p class="dish-price"><span>89</span>грн.</p>
+															<div class="want-block">
+																<div class="math-block display-none">
+																		<span class="minus-quantity quantities"><i class="fa fa-minus" aria-hidden="true"></i></span>
+																		<span class="my-quantity"></span>
+																		<span class="plus-quantity quantities"><i class="fa fa-plus" aria-hidden="true"></i></span>
+																</div>
+				
+																<a href="/" class="dish-basket count-up">Хочу</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="dish-wrap">
+											<div class="dish-item">
+													<div class="dish-top">
+														<a href="">
+															<img src="./img/802.jpg" alt="">
+														</a>
+													</div>
+													<div class="dish-bot dish">
+														<div class="dish-content">
+															<div class="spicy"><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt="" ></div>
+															<h3 class="dish-title">Шпинатная лапша</h3>
+															<p class="dish-desc">с телятиной</p>
+														</div>
+														<div class="dish-prices">
+															<p class="dish-price"><span>89</span>грн.</p>
+															<div class="want-block">
+																<div class="math-block display-none">
+																		<span class="minus-quantity quantities"><i class="fa fa-minus" aria-hidden="true"></i></span>
+																		<span class="my-quantity"></span>
+																		<span class="plus-quantity quantities"><i class="fa fa-plus" aria-hidden="true"></i></span>
+																</div>
+				
+																<a href="/" class="dish-basket count-up">Хочу</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="dish-wrap">
+												<div class="dish-item">
+														<div class="dish-top">
+															<a href="">
+																<img src="./img/212.jpg" alt="">
+															</a>
+														</div>
+														<div class="dish-bot dish">
+															<div class="dish-content">
+																<div class="spicy"><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt="" ></div>
+																<h3 class="dish-title">Шпинатная лапша</h3>
+																<p class="dish-desc">с телятиной</p>
+															</div>
+															<div class="dish-prices">
+																<p class="dish-price"><span>89</span>грн.</p>
+																<div class="want-block">
+																	<div class="math-block display-none">
+																			<span class="minus-quantity quantities"><i class="fa fa-minus" aria-hidden="true"></i></span>
+																			<span class="my-quantity"></span>
+																			<span class="plus-quantity quantities"><i class="fa fa-plus" aria-hidden="true"></i></span>
+																	</div>
+					
+																	<a href="/" class="dish-basket count-up">Хочу</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="dish-wrap">
+													<div class="dish-item">
+															<div class="dish-top">
+																<a href="">
+																	<img src="./img/217-550.jpg" alt="">
+																</a>
+															</div>
+															<div class="dish-bot dish">
+																<div class="dish-content">
+																	<div class="spicy"><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt=""><img  src="./img/spicy.svg" alt="" ></div>
+																	<h3 class="dish-title">Шпинатная лапша</h3>
+																	<p class="dish-desc">с телятиной</p>
+																</div>
+																<div class="dish-prices">
+																	<p class="dish-price"><span>89</span>грн.</p>
+																	<div class="want-block">
+																		<div class="math-block display-none">
+																				<span class="minus-quantity quantities"><i class="fa fa-minus" aria-hidden="true"></i></span>
+																				<span class="my-quantity"></span>
+																				<span class="plus-quantity quantities"><i class="fa fa-plus" aria-hidden="true"></i></span>
+																		</div>
+						
+																		<a href="/" class="dish-basket count-up">Хочу</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+									
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+
+			
+
+	
+			
+		</div>
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- <div class="col-sm-6 col-md-3 my-custom-border bordered">
+						<div class="footer__logo footer__item">
+							<a href="">
+								<img src="./img/logo2.png" alt="" class="footer-img">
+							</a>
+						</div>
+					</div> -->
+					<div  class="col-sm-4 my-custom-border bordered">
+						<div class="footer__phones footer__item">
+							<h4>Оформить заказ:</h4>
+							<p><a href="tel:+38 (067) 900-43-41">+38 (067) 900-43-41</a></p>
+							<p><a href="tel:+38 (073) 900-43-41">+38 (073) 900-43-41</a></p>
+						</div>
+					</div>
+					<div  class="col-sm-4 my-custom-border bordered">
+						<div class="footer__pages footer__item">
+							<p><a href="/">О нас</a></p>
+							<p><a href="/">Зона доставки</a></p>
+							<p><a href="/">Акции</a></p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="footer__shedule footer__item">
+							<h4>График работы:</h4>
+							<p>10:00-21:00 - ежедневно</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<ul class="footer__social">
+							<li><a href="https://www.instagram.com/taina_box/"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/tainainbox/"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="mailto:office@tainabox.com.ua"><i class="fa fa-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+					<div class="col-sm-12">
+						<p class="footer__personal">Оформляя заказ Вы даете соглашение на обработку персональных данных</p>
+					</div>
+				</div>
+		</footer>
+
+
+
+		<div class="callback-btn callback-btn-hidden" data-fancybox data-src="#popup-callback">
+				<div class="circle-one"></div>
+				<div class="circle-two"></div>
+				<div class="circle-three"></div>
+				<i  class="fa fa-phone"></i>
+			</div>
+	
+		
+	</div>
+	<!-- end wrapper  -->
+
+
+	<div style="display: none;" id="popup-callback" class="call-wrap">
+			<h2>Наши операторы свяжутся с Вами в течении 2 минут!</h2>
+			<div class="form">
+					<input type="text">
+					<input type="button" class="btn-call" value="Жду звонка">
+			</div>
+
+		</div>
+
+
+	 <link rel="stylesheet" href="libs/animate/animate.css">
+	 <!-- <link rel="stylesheet" href="libs/raty/jquery.raty.css"> -->
+    
+	<link rel="stylesheet" type="text/css" href="css/main.min.css">
+	
+    
+    
+	<script src="libs/jquery-3.2.1.min.js"></script>
+	<script src="libs/readmore/readmore.min.js"></script>
+	<script src="libs/wow.min.js"></script>
+	<script src="libs/bootstrap/bootstrap.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+	<script src="js/common.js"></script>
+
+	<script>
+			// function initMap() {
+			//   var uluru = {lat: 50.422767, lng: 30.529051};
+			//   var popupContent = '<p class="content">Что угодно</p>';
+			//   var map = new google.maps.Map(document.getElementById('map'), {
+			// 	zoom: 17,
+			// 	center: uluru
+			//   });
+			//   var marker = new google.maps.Marker({
+			// 	position: uluru,
+			// 	map: map,
+			// 	title:"Like Центр",
+			// 	animation: google.maps.Animation.BOUNCE
+			//   });
+		
+			// }
+
+
+		//   var marker;
+
+		//  function initMap() {
+		//  var map = new google.maps.Map(document.getElementById('map'), {
+		//  	zoom: 12,
+		//  	 center: {lat: 50.422767, lng: 30.529051}
+		//  });
+
+		// //  marker = new google.maps.Marker({
+		// //  	map: map,
+		// //  	title:"Tainabox",
+		// //  	draggable: true,
+		// //  	animation: google.maps.Animation.DROP,
+		// //  	position: {lat: 50.422767, lng: 30.529051}
+		// //  });
+		// //  marker.addListener('click', toggleBounce);
+		//  }
+
+		//  function toggleBounce() {
+		//  if (marker.getAnimation() !== null) {
+		//  	marker.setAnimation(null);
+		//  } else {
+		//  	marker.setAnimation(google.maps.Animation.BOUNCE);
+		//  }
+		//  }
+</script>
+<!-- <script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWxXtWe25cJ79FhVnzxqNnuNOppuw2DoU&callback=initMap">
+	</script> -->
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

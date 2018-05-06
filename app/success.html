@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Tainabox</title>
+	<meta name="description" content="">
+	<script src="js/modernizr-custom.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#e43520">
+	
+	<meta property="og:url" content="">
+    <meta property="og:title" content="Tainabox">
+	<meta name="description"
+    content="Tainabox">
+
+
+	<!-- <meta property="og:image" content="path/to/image.jpg"> -->
+	<link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+	
+	<!-- <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="libs/jquery-ui-cust/jquery-ui.min.css"> -->
+   
+
+<!-- Optional theme -->
+
+    <!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<nav class="header__top">
+				<div class="container">
+					<div class="row">
+						<!-- <div class="hidden-xs header__top-item header__top-logo hidden-md hidden-lg hidden-sm">
+							<a href=""> <img src="./img/logo1.png" alt="tainabox"></a>
+						</div>						 -->
+					
+					<!-- <div class="col-xs-6 header__top-item header__top-phones hidden-md hidden-lg hidden-sm">
+							<p>
+								<a href="tel:+38(067)900-43-41">+38(067)900-43-41</a>
+							</p>
+						
+						</div> -->
+					</div>
+					<div class="row">
+
+
+						<div class="col-sm-3 col-md-3 header__top-item header__top-logo hidden-sm hidden-xs">
+							<a href="./"> <img src="./img/logo1.png" alt="tainabox"></a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 header__top-item header__top-times">	
+							<p>С 10:00 - 21:00</p>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-3 header__top-item header__top-zone hidden-xs">
+							<a href="#zone-sec">Зона доставки</a>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 header__top-item header__top-phones">
+							<p>
+								<a href="tel:+38(067)900-43-41">+38(067)900-43-41</a>
+							</p>
+							<p class="hidden-sm hidden-xs">
+								<a href="tel:+38(073)900-43-41">+38(073)900-43-41</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<nav class="header__mid">
+
+				<div class="header__mid-min-view hidden-md hidden-lg">
+					<p>Меню</p>
+					<ul class="header__mid-menu-min-view">
+						<li><a href="./catalog.html">Лапша</a></li>
+						<li><a href="./catalog.html">Рис</a></li>
+						<li><a href="./catalog.html">Роллы</a></li>
+						<li><a href="./catalog.html">Супы</a></li>
+						<li><a href="./catalog.html">Салаты</a></li>
+						<li><a href="./catalog.html">Закуски</a></li>
+						<li><a href="./catalog.html">Соусы</a></li>
+						<li><a href="./catalog.html">Напитки</a></li>
+						<li><a href="./catalog.html">Вегетарианское меню</a></li>
+					</ul>
+					<div class="free-zone-min">
+						<p>Зона бесплатной доставки</p> 
+						<a href="https://www.google.com/maps/d/u/0/viewer?mid=1hxZuz4PJOMqg5ME-sqHN-qfxtPXIITgT&ll=50.40738347155405%2C30.58181946629179&z=12" target="_blanc">
+							<img class="free-zone-min-img" src="./img/mapsmin.png" alt="">
+						</a>
+						
+					</div>
+					 
+				</div>
+
+
+					<div class="basket-content basket-hidden">
+							<div class="basket-container">
+								<div class="basket-box">
+										<div class="basket-item">
+											<div class="basket-left">
+													<a href="./product.html">
+												<img src="./img/402.jpg" alt="" class="basket-left-img">
+											</a>
+											</div>
+											<div class="basket-right">
+													<h4 class="basket-right-title">
+														Лапша
+													</h4>
+													<p class="basket-right-desc">
+															с телятиной
+													</p>
+													<p class="basket-right-total"><span class="basket-count">3</span>X <span class="basket-price">1210</span>грн.</p>
+													
+											</div>
+											<div class="basket-item-close">X</div>
+										</div>
+										<div class="basket-item">
+												<div class="basket-left">
+														<a href="./product.html">
+													<img src="./img/402.jpg" alt="" class="basket-left-img">
+												</a>
+												</div>
+												<div class="basket-right">
+														<h4 class="basket-right-title">
+															Лапша
+														</h4>
+														<p class="basket-right-desc">
+																с телятиной
+														</p>
+														<p class="basket-right-total"><span class="basket-count">3</span>X <span class="basket-price">1210</span>грн.</p>
+														
+												</div>
+												<div class="basket-item-close">X</div>
+											</div>
+											<div class="basket-item">
+												<div class="basket-left">
+													<a href="./product.html">
+														<img src="./img/402.jpg" alt="" class="basket-left-img">
+													</a>
+												</div>
+												<div class="basket-right">
+												<h4 class="basket-right-title">
+													Лапша
+												</h4>
+												<p class="basket-right-desc">
+													с телятиной
+												</p>
+												<p class="basket-right-total"><span class="basket-count">3</span>X <span class="basket-price">1210</span>грн.</p>		
+											</div>
+											<div class="basket-item-close">X</div>
+										</div>	
+										<div class="basket-item">
+											<div class="basket-left">
+													<a href="./product.html">
+												<img src="./img/402.jpg" alt="" class="basket-left-img">
+											</a>
+											</div>
+											<div class="basket-right">
+											<h4 class="basket-right-title">
+												Лапша
+											</h4>
+											<p class="basket-right-desc">
+												с телятиной
+											</p>
+											<p class="basket-right-total"><span class="basket-count">3</span>X <span class="basket-price">1210</span>грн.</p>		
+										</div>
+										<div class="basket-item-close">X</div>
+									</div>		
+									</div>	
+									<div class="basket-totaly">Итого: <span>3343</span> грн.</div>
+									<a href="./order.html" class="to-order">Оформить заказ</a>
+							
+							</div>
+						</div>
+					
+
+				
+				<div id="header-custom-middle-block" class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="header__mid-left">
+								<div class="nav-mobile hidden-md hidden-lg">
+									<span class="nav-mobile__line nav-mobile__line--top"></span>
+									<span class="nav-mobile__line nav-mobile__line--middle active"></span>
+									<span class="nav-mobile__line nav-mobile__line--bottom"></span>		
+								</div>
+								<a href="./" id="logo-mid" class="hidden-md hidden-lg"> <img src="./img/logo-w.png" alt="tainabox"></a>
+								<div class="header__mid-right-mini hidden-md hidden-lg">
+								
+										<div class="header__mid-basket mybtn-basket">
+											<a herf="">1000</span> &#8372;</a>
+										</div>
+									</div>
+								<ul class="header__mid-menu hidden-sm hidden-xs">
+									<li><a href="./catalog.html">Лапша</a></li>
+									<li><a href="./catalog.html">Рис</a></li>
+									<li><a href="./catalog.html">Роллы</a></li>
+									<li><a href="./catalog.html">Супы</a></li>
+									<li><a href="./catalog.html">Салаты</a></li>
+									<li><a href="./catalog.html">Закуски</a></li>
+									<li><a href="./catalog.html">Соусы</a></li>
+									<li><a href="./catalog.html">Напитки</a></li>
+									<li><a href="./catalog.html">Вегетарианское меню</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- <a href="" id="logo-mid" class="logo-mid-invisible"> <img src="./img/logo-w.png" alt="tainabox"></a> -->
+						<div class="col-md-3">
+							<div class="header__mid-right">
+								<div class="header__mid-price">
+									<p><span>1000</span> грн.</p>
+								</div>
+								<div class="header__mid-basket mybtn-basket">
+									<a  href="">Корзина</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="main">
+			<div class="success-box">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2">
+								<div class="success-item">
+										<div class="success-info">
+												<h3>Спасибо! Ваш заказ был получен.</h3>
+												<p>Номер заказа <span>#234324234</span></p>
+												<p>Дата <span>22/04/2018</span></p>
+												
+										</div>
+										<div class="success-details">
+											<h4>Детали заказа</h4>
+												<div class="table-responsive">
+
+														<table class="table">
+															<tr>
+																<th>Наименование</th>
+																<th>Кол-во</th>
+																<th>Цена</th>
+																<th>Сумма</th>
+															</tr>
+															<tr>
+																<td>Шпинатная лапша с телятиной</td>
+																<td>1</td>
+																<td>89</td>
+																<td>89</td>
+															</tr>
+															<tr>
+																<td>Рис с телятиной</td>
+																<td>2</td>
+																<td>105</td>
+																<td>210</td>
+															</tr>
+															<tr>
+																<td>Рисовая лапша с телятиной</td>
+																<td>1</td>
+																<td>57</td>
+																<td>57</td>
+															</tr>
+															<tr>
+																<td>Роллы с курицей</td>
+																<td>3</td>
+																<td>70</td>
+																<td>210</td>
+															</tr>
+															<tr>
+																<td colspan="3">Итого:</td>
+																<td><span class="order-sum">750</span>грн.</td>
+															</tr>
+														</table>
+													</div>
+													<div class="client-data">
+														<h4>Ваши данные:</h4>
+														<p>Имя: <span>Иван</span></p>
+														
+														<p>Ваш телефон: <span>0977273232</span></p>
+														<p>Ваш email: <span>petrov@gmail.com</span></p>
+														<p>Улица: <span>Крещатик</span></p>
+														<p>Дом: <span>5</span></p>
+														<p>Этаж: <span>5</span></p>
+														<p>Квартира: <span>53</span></p>
+														<p>Подъезд: <span>3</span></p>
+														<p>Код домофона: <span>5213</span></p>
+														<p>Дата: <span>23.04.2018</span></p>
+														<p>Время доставки: <span>13:45</span></p>
+														<p>Примечание: <span>Позвонить в домофон, я выйду</span></p>
+													</div>
+													
+										</div>
+										<h4>Менеджер свяжется с Вами в ближайшее время</h4>
+									</div>
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>	
+		</div>
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- <div class="col-sm-6 col-md-3 my-custom-border bordered">
+						<div class="footer__logo footer__item">
+							<a href="">
+								<img src="./img/logo2.png" alt="" class="footer-img">
+							</a>
+						</div>
+					</div> -->
+					<div  class="col-sm-4 my-custom-border bordered">
+						<div class="footer__phones footer__item">
+							<h4>Оформить заказ:</h4>
+							<p><a href="tel:+38 (067) 900-43-41">+38 (067) 900-43-41</a></p>
+							<p><a href="tel:+38 (073) 900-43-41">+38 (073) 900-43-41</a></p>
+						</div>
+					</div>
+					<div  class="col-sm-4 my-custom-border bordered">
+						<div class="footer__pages footer__item">
+							<p><a href="/">О нас</a></p>
+							<p><a href="/">Зона доставки</a></p>
+							<p><a href="/">Акции</a></p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="footer__shedule footer__item">
+							<h4>График работы:</h4>
+							<p>10:00-21:00 - ежедневно</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<ul class="footer__social">
+							<li><a href="https://www.instagram.com/taina_box/"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/tainainbox/"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="mailto:office@tainabox.com.ua"><i class="fa fa-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+					<div class="col-sm-12">
+						<p class="footer__personal">Оформляя заказ Вы даете соглашение на обработку персональных данных</p>
+					</div>
+				</div>
+		</footer>
+
+
+		<div class="callback-btn callback-btn-hidden" data-fancybox data-src="#popup-callback">
+			<div class="circle-one"></div>
+			<div class="circle-two"></div>
+			<div class="circle-three"></div>
+			<i  class="fa fa-phone"></i>
+		</div>
+
+		
+	</div>
+	<!-- end wrapper  -->
+	
+
+	<div style="display: none;" id="popup-callback" class="call-wrap">
+			<h2>Наши операторы свяжутся с Вами в течении 2 минут!</h2>
+			<div class="form">
+					<input type="text">
+					<input type="button" class="btn-call" value="Жду звонка">
+			</div>
+
+		</div>
+
+
+
+
+
+
+	 <link rel="stylesheet" href="libs/animate/animate.css">
+	 <!-- <link rel="stylesheet" href="libs/raty/jquery.raty.css"> -->
+    
+	<link rel="stylesheet" type="text/css" href="css/main.min.css">
+	
+    
+    
+	<script src="libs/jquery-3.2.1.min.js"></script>
+	<script src="libs/readmore/readmore.min.js"></script>
+	<script src="libs/wow.min.js"></script>
+	<script src="libs/bootstrap/bootstrap.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+	<script src="js/common.js"></script>
+
+	<script>
+			// function initMap() {
+			//   var uluru = {lat: 50.422767, lng: 30.529051};
+			//   var popupContent = '<p class="content">Что угодно</p>';
+			//   var map = new google.maps.Map(document.getElementById('map'), {
+			// 	zoom: 17,
+			// 	center: uluru
+			//   });
+			//   var marker = new google.maps.Marker({
+			// 	position: uluru,
+			// 	map: map,
+			// 	title:"Like Центр",
+			// 	animation: google.maps.Animation.BOUNCE
+			//   });
+		
+			// }
+
+
+		//   var marker;
+
+		//  function initMap() {
+		//  var map = new google.maps.Map(document.getElementById('map'), {
+		//  	zoom: 12,
+		//  	 center: {lat: 50.422767, lng: 30.529051}
+		//  });
+
+		// //  marker = new google.maps.Marker({
+		// //  	map: map,
+		// //  	title:"Tainabox",
+		// //  	draggable: true,
+		// //  	animation: google.maps.Animation.DROP,
+		// //  	position: {lat: 50.422767, lng: 30.529051}
+		// //  });
+		// //  marker.addListener('click', toggleBounce);
+		//  }
+
+		//  function toggleBounce() {
+		//  if (marker.getAnimation() !== null) {
+		//  	marker.setAnimation(null);
+		//  } else {
+		//  	marker.setAnimation(google.maps.Animation.BOUNCE);
+		//  }
+		//  }
+</script>
+<!-- <script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWxXtWe25cJ79FhVnzxqNnuNOppuw2DoU&callback=initMap">
+	</script> -->
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
