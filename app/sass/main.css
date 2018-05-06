@@ -3059,7 +3059,7 @@ p {
 @media (min-width: 250px) and (max-width: 499px) {
   .wrapper .main .order-box .table tr td .math-block .my-quantity {
     margin: 0 3px;
-    line-height: 0.9;
+    line-height: 1;
   }
 }
 
